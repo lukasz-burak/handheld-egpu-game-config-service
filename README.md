@@ -67,3 +67,48 @@ Before you can automate, you need to create the "Master" copies of your settings
     HandheldSource = "C:\Configs\Cyberpunk\Handheld"
     DockedSource = "C:\Configs\Cyberpunk\Docked"
 }
+```
+
+### Step 3: Install
+
+1. Place both .ps1 and .bat files in the same permanent folder (e.g., C:\Scripts\).
+
+2. Right-click Setup_Auto_Switch.bat.
+
+3. Select Run as Administrator.
+
+4. A window will pop up confirming the task has been created.
+
+You are done! The script is now running.
+
+###  🎮 How to Test
+
+1. Unplug your eGPU.
+
+2. Wait 5 seconds.
+
+3. Check your game's config folder. The "Date Modified" of the settings file should update to right now.
+
+4. Plug in your eGPU.
+
+5. Wait ~10 seconds (Windows needs time to load drivers + script waits 5s for stability).
+
+6. Check the file again. It should have been overwritten with the Ultra settings.
+
+###  ❌ Uninstallation
+
+If you want to stop the automation:
+
+1. Open Task Scheduler in Windows.
+
+2. Find ROG_Ally_GPU_Swapper.
+
+3. Right-click and select Delete.
+
+4. Restart your computer.
+
+⚠️ Notes
+
+Safety: This script only copies/overwrites specific config files. It does not modify game executables or anti-cheat files.
+
+Updates: If you change your graphics settings inside the game, remember that your changes will be lost the next time you swap modes unless you update your "Master" files in C:\Configs.
