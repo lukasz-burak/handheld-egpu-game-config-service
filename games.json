@@ -1,0 +1,17 @@
+{
+  "eGPUKeyword": "NVIDIA",
+  "Games": [
+    {
+      "Name": "Cyberpunk 2077",
+      "Destination": "C:\\Users\\YourUser\\AppData\\Local\\CD Projekt Red\\Cyberpunk 2077",
+      "HandheldSource": "C:\\Configs\\Cyberpunk\\Handheld",
+      "DockedSource": "C:\\Configs\\Cyberpunk\\Docked"
+    },
+    {
+      "Name": "Elden Ring",
+      "Destination": "C:\\Users\\YourUser\\AppData\\Roaming\\EldenRing",
+      "HandheldSource": "C:\\Configs\\EldenRing\\Handheld",
+      "DockedSource": "C:\\Configs\\EldenRing\\Docked"
+    }
+  ]
+}
